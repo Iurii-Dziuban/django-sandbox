@@ -8,5 +8,5 @@ script:
   - python manage.py makemigrations
   - python manage.py migrate
   - python manage.py test application
-  - coverage run --source=home manage.py test application
+  - coverage run --source=application manage.py test application
 after_success: coveralls
