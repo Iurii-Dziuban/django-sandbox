@@ -1,4 +1,5 @@
 django-sandbox.iml
+db.sqlite3
 *.pyc
 target
 .coverage
